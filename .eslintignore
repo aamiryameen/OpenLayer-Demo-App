@@ -1,0 +1,7 @@
+node_modules/
+android/
+ios/
+# Vendored OpenLayers distribution and generated map artifact.
+src/map/assets/ol/ol.js
+src/map/assets/ol/ol.css
+src/map/web/mapHtml.ts

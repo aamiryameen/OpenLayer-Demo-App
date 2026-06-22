@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "Louisville Inspection", "type": "inspection" }, "geometry": { "type": "Point", "coordinates": [-85.7585, 38.2527] } },
+    { "type": "Feature", "properties": { "name": "New Albany Inspection", "type": "inspection" }, "geometry": { "type": "Point", "coordinates": [-85.8241, 38.2856] } },
+    { "type": "Feature", "properties": { "name": "Jeffersontown Inspection", "type": "inspection" }, "geometry": { "type": "Point", "coordinates": [-85.5644, 38.1942] } },
+    { "type": "Feature", "properties": { "name": "Pleasure Ridge Park Inspection", "type": "inspection" }, "geometry": { "type": "Point", "coordinates": [-85.8758, 38.1581] } },
+    { "type": "Feature", "properties": { "name": "Sellersburg Inspection", "type": "inspection" }, "geometry": { "type": "Point", "coordinates": [-85.7547, 38.3978] } },
+    { "type": "Feature", "properties": { "name": "Charlestown Inspection", "type": "inspection" }, "geometry": { "type": "Point", "coordinates": [-85.6699, 38.4531] } },
+    { "type": "Feature", "properties": { "name": "Georgetown Inspection", "type": "inspection" }, "geometry": { "type": "Point", "coordinates": [-85.9047, 38.2922] } },
+    { "type": "Feature", "properties": { "name": "Shepherdsville Inspection", "type": "inspection" }, "geometry": { "type": "Point", "coordinates": [-85.7155, 37.9884] } },
+    { "type": "Feature", "properties": { "name": "Mount Washington Inspection", "type": "inspection" }, "geometry": { "type": "Point", "coordinates": [-85.5436, 38.0531] } },
+    { "type": "Feature", "properties": { "name": "Buckner Inspection", "type": "inspection" }, "geometry": { "type": "Point", "coordinates": [-85.4344, 38.3850] } }
+  ]
+}
