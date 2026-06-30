@@ -98,6 +98,7 @@ export default function MapView({ style }: MapViewProps) {
         onLoadEnd={requestAndTrack}
         onMessage={onMessage}
         style={styles.webview}
+        webviewDebuggingEnabled={true}
       />
     </View>
   );

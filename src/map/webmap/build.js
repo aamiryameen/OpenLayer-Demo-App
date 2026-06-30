@@ -14,6 +14,12 @@ const geojson = fs.readFileSync(
   'utf8',
 );
 
+const markerImg = fs.readFileSync(
+  path.join(dir, '..', '..', 'asset', 'marker.png'),
+);
+const markerDataUri =
+  'data:image/png;base64,' + markerImg.toString('base64');
+
 const html = `<!DOCTYPE html>
 <html>
   <head>
@@ -34,6 +40,7 @@ ${olCss}
          (zoom-in) isn't covered by the safe-area and stays tappable. */
       .ol-zoom { top: calc(.5em + env(safe-area-inset-top)) !important; }
       .ol-control.locate { top: calc(6em + env(safe-area-inset-top)) !important; }
+      .ol-control.draw-toggle { top: calc(9.5em + env(safe-area-inset-top)) !important; }
     </style>
   </head>
   <body>
@@ -43,6 +50,7 @@ ${olJs}
     </script>
     <script>
       window.INSPECTIONS_GEOJSON = ${geojson};
+      window.MARKER_ICON = ${JSON.stringify(markerDataUri)};
     </script>
     <script>
 ${main}
